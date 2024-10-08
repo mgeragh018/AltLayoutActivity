@@ -14,8 +14,8 @@
 
         <ImageView
             android:id="@+id/profile_photo"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:scaleType="center"
             tools:srcCompat="@tools:sample/avatars" />
 

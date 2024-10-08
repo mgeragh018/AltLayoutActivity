@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //R class is the bridge between the code and our resources
         findViewById<ImageView>(R.id.profile_photo).setImageResource(R.drawable.istockphoto)
 
         findViewById<TextView>(R.id.name).setText("Michelle Townsend")
